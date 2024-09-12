@@ -5,21 +5,19 @@ tags: 基础建设
 ---
 
 # 使用对象
-
-	<span data-type="text" style="font-size: 19px;">对技术感兴趣，喜欢自己搭建的道友，自使用需求，用于记录用户日常的操作行为</span>
+&nbsp;&nbsp;&nbsp;&nbsp;对技术感兴趣，喜欢自己搭建的道友，自使用需求，用于记录用户日常的操作行为</span>
 
 # 提前准备
 
-* <span data-type="text" style="font-size: 19px;">一台ECS机器，可根据实际情况选择配置，推荐使用阿里云或者腾讯云进行搭建</span>
-* <span data-type="text" style="font-size: 19px;">Nodejs ( version &lt;= v12.16.3 )</span>
-* <span data-type="text" style="font-size: 19px;">nvm ( node包管理工具)</span>
-* <span data-type="text" style="font-size: 19px;">openresty ( 集成化的ngnix, 十分好用！)</span>
+* 一台ECS机器，可根据实际情况选择配置，推荐使用阿里云或者腾讯云进行搭建
+* Nodejs (version &lt;= v12.16.3)
+* nvm (node包管理工具)
+* openresty (集成化的ngnix, 十分好用)</span>
 
-【**注意**<span data-type="text" style="font-size: 19px;">】不同版本的Nodejs会影响gitserver的安装，亲测试v12.16.3有效</span>
+&nbsp;&nbsp;&nbsp;&nbsp;【**注意**】不同版本的Nodejs会影响gitserver的安装，亲测试v12.16.3有效</span>
 
 # 搭建
-
-	好，let's do it !
+&nbsp;&nbsp;&nbsp;&nbsp;好，let's do it !
 
 ## nvm
 
@@ -53,10 +51,9 @@ $ gitbook init
 # 启动server
 $ gitbook server
 ```
+&nbsp;&nbsp;&nbsp;&nbsp;Great, 现在可以启动服务了，默认的端口是4000，这个可以在config中进行配置。
 
-    Great, 现在可以启动服务了，默认的端口是4000，这个可以在config中进行配置。
-
-【**注意**】如果想更进一步开放给外网使用，在ecs的安全组设置中，放开4000端口的流入和流出。
+&nbsp;&nbsp;&nbsp;&nbsp;【**注意**】如果想更进一步开放给外网使用，在ecs的安全组设置中，放开4000端口的流入和流出。
 
 ### openresty
 
@@ -277,7 +274,7 @@ $ 复制脚本并保存
 	$ systemctl restart openresty
 ```
 
-	<span data-type="text" style="font-size: 19px;">Done! 然后我们看看服务重启后，是否可以正常访问， 至此我们就搭建完成啦！</span>
+&nbsp;&nbsp;&nbsp;&nbsp;Done! 然后我们看看服务重启后，是否可以正常访问， 至此我们就搭建完成啦！</span>
 
 # gitbook更新计划
 

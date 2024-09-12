@@ -108,7 +108,7 @@ deploy:
 
 about:
   name: "Yessirpopesama"
-  banner_img: /img/bg/pngtree-technology.jpg
+  banner_img: /img/bg/background.jpg
   intro: "一个经（经济）史（历史）淄（生计）计（计算机）的爱好者"
   avatar: /img/avatar.jpg
   icons:
@@ -125,7 +125,22 @@ index:
     text: 欢迎来到秃头开发Yessirpopesama的博客小屋
   banner_img: /img/bg/pngtree-technology.jpg
 
+tag:
+  banner_img: /img/bg/pngtree-technology.jpg
+
+category:
+  - 技术分享
+
+archive:
+  banner_img: /img/bg/pngtree-technology.jpg
+
 footer:
+  statistics:
+    enable: true
+    source: "busuanzi"  # 可选 leancloud | busuanzi  根据自己需求选择
+    pv_format: "总访问量 {} 次"  # 显示的文本，{}是数字的占位符（必须包含)，下同
+    uv_format: "总访客数 {} 人"
+
   beian:
     enable: true
     # ICP证号
