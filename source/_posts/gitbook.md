@@ -2,6 +2,7 @@
 title: 自搭建Gitbook手册
 date: 2024-08-29 16:31:35
 tags: 基础建设
+categories: [技术文摘]
 ---
 
 # 使用对象
