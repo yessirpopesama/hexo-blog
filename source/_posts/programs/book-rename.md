@@ -20,12 +20,12 @@ categories: [实用代码, go语言]
 
 # 核心代码
 定义来源文件夹、目标文件夹路径：
-```golang
+```go
 	sourceDir := ""
 	targetDir := ""
 ```
 遍历来源目录下，统计每个作者的文件数量：
-```golang
+```go
 	// 用于存储每个作者的文件计数
 	authorCount := make(map[string]int)
 
@@ -47,7 +47,7 @@ categories: [实用代码, go语言]
 	})
 ```
 遍历目录，并复制文件：
-```golang
+```go
 	// 遍历目录并复制文件
 	err = filepath.Walk(sourceDir, func(path string, info os.FileInfo, err error) error {
 		if err != nil {
@@ -91,7 +91,7 @@ categories: [实用代码, go语言]
 	})
 ```
 文件名替换规则逻辑：
-```golang
+```go
 // 去掉文件名中[到]之间的内容的辅助函数
 func removeBrackets(fileName string) string {
 	// 替换【为[，】为]
