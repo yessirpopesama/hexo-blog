@@ -103,3 +103,22 @@ language: zh-CN  # 指定语言，会影响主题显示的语言，按需修改
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+live2d:
+  enable: true
+  scriptFrom: local
+  pluginRootPath: live2dw/
+  pluginJsPath: lib/
+  pluginModelPath: assets/
+  tagMode: false
+  debug: true
+  model:
+    use: live2d-widget-model-z16  ## 更换为你的模型
+  display:
+    position: right
+    width: 150
+    height: 300
+  mobile:
+    show: false
+  react:
+    opacity: 0.7
