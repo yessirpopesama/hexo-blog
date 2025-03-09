@@ -1,7 +1,7 @@
 ---
 title: Jenkins部署hexo-blog项目
 date: 2024-09-12 15:52:06
-banner_img: /img/bg/pngtree-technology.jpg
+banner_img: /img/bg/archive.jpg
 tags: 运维
 excerpt: 本文在腾讯云轻量级服务器上，使用Docker搭建了Jenkins，并将使用了hexo的框架的博客部署在服务器上，通过CI/CD流程实现自动化部署项目。
 categories: [技术文摘, 腾讯云服务器应用]

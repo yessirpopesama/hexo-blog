@@ -1,7 +1,7 @@
 ---
 title: 本地化思源服务器的搭建与开发
 date: 2024-09-23 14:25:03
-banner_img: /img/bg/pngtree-technology.jpg
+banner_img: /img/bg/archive.jpg
 tags: 运维
 excerpt: 本文介绍一种采用docker方式进行部署思源笔记，最好用的开源知识库。
 categories: [技术文摘, 腾讯云服务器应用]
