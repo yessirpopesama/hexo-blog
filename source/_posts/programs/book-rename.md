@@ -1,7 +1,7 @@
 ---
 title: 关于book重命名的一些事儿
 date: 2025-01-29 19:25:03
-banner_img: /img/bg/pngtree-technology.jpg
+banner_img: /img/bg/archive.jpg
 tags: 代码
 excerpt: 书籍需要归档，如何重新定义书籍名字
 categories: [实用代码, go语言]
